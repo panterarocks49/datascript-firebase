@@ -1,24 +1,21 @@
 {
-  "name": "datascript-firebase",
-  "version": "1.0.0",
-  "description": "An example of a collaborative, reactive web app with datascript and firebase",
-  "main": "index.js",
-  "dependencies": {
-    "react-dom": "^16.9.0",
-    "react": "^16.9.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/panterarocks49/datascript-firebase.git"
-  },
-  "author": "Josh Brown",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/panterarocks49/datascript-firebase/issues"
-  },
-  "homepage": "https://github.com/panterarocks49/datascript-firebase#readme"
+    "name": "datascript-firebase",
+    "version": "1.0.0",
+    "description": "An example of a collaborative, reactive web app with datascript and firebase",
+    "dependencies": {
+        "firebase": "^6.3.0",
+        "process": "^0.11.10",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3"
+    },
+    "devDependencies": {
+        "shadow-cljs": "^2.8.69"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/panterarocks49/datascript-firebase.git"
+    },
+    "author": "Josh Brown",
+    "license": "MIT",
+    "homepage": "https://github.com/panterarocks49/datascript-firebase#readme"
 }

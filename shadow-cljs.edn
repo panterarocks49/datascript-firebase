@@ -7,6 +7,7 @@
   [reagent "0.9.0-SNAPSHOT"]
   [datascript "0.18.4"]
   [datascript-transit "0.3.0"]
+  [com.taoensso/timbre "4.10.0"]
   [thheller/shadow-cljsjs "0.0.16"]
   ]
 
@@ -25,7 +26,6 @@
 
         :devtools
         {:autoload     true
-         :preloads     [shadow.remote.runtime.browser]
          :before-load  datascript-firebase.core/destroy
          :after-load   datascript-firebase.core/reload
          :http-handler shadow.http.push-state/handle
