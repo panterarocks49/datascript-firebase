@@ -6,7 +6,9 @@ An example of using datascript, firebase, and reagent for a realtime collaborati
 ## How to run
 
 Setup a new firebase project
+
 add your api key and databaseURL to init! fn in firebase.cljs file
+
 Make sure you have your database rules set to public read and write (or setup firebase auth and corresponding rules)
 
 Then run
