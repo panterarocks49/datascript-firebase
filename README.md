@@ -1,6 +1,6 @@
 # datascript-firebase
 
-An example of using datascript, firebase, and reagent for a realtime collaborative web app
+An example of using datascript, firebase realtime-database, and reagent for a realtime collaborative web app
 
 
 ## How to run
